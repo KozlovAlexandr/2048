@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aboo/2048/2048_template/src/bin/main.cpp
+display/display.h
+-
+cmath
+-
+engine/engine.h
+-
+
+display/display.h
+memory
+-
+
+engine/engine.h
+logic.h
+engine/logic.h
+
+engine/logic.h
+display/display.h
+-
+vector
+-
+

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aboo/2048/2048_template/src/engine/engine.cpp
+engine.h
+/home/aboo/2048/2048_template/src/engine/engine.h
+iostream
+-
+thread
+-
+mutex
+-
+
+/home/aboo/2048/2048_template/src/engine/engine.h
+logic.h
+/home/aboo/2048/2048_template/src/engine/logic.h
+
+/home/aboo/2048/2048_template/src/engine/logic.cpp
+queue
+-
+stack
+-
+logic.h
+/home/aboo/2048/2048_template/src/engine/logic.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+
+/home/aboo/2048/2048_template/src/engine/logic.h
+display/display.h
+-
+vector
+-
+
+display/display.h
+memory
+-
+
